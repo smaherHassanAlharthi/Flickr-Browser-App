@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mainActivity"
+        android:title="Search"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_action_search"/>
+
+
+    <item
+        android:id="@+id/listView"
+        android:title="View"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_list"
+        />
+    <item
+        android:id="@+id/likedActivity"
+        android:title="Liked"
+        android:icon="@drawable/like"
+        app:showAsAction="never"
+        />
+
+</menu>
